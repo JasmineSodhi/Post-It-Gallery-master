@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.akshaybaweja.postitgallery.helper.SquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tagtag"
+        android:src="@drawable/divider_background"
+        android:visibility="visible"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textSize="40dp"
+        android:visibility="visible"
+        android:id="@+id/overlayText"/>
+
+</com.akshaybaweja.postitgallery.helper.SquareLayout>
